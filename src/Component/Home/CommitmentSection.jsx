@@ -1,8 +1,8 @@
 import React from "react";
 import { Clock, ShoppingBag } from "lucide-react";
 import AboutImage from "../../assets/about3.jpg";
-import AboutImage2 from "../../assets/about2.jpg";
-import AboutImage3 from "../../assets/about1.jpg";
+import Image2 from "../../assets/about2.jpg";
+import Image3 from "../../assets/about1.jpg";
 
 const CommitmentSection = () => {
   return (
@@ -16,12 +16,12 @@ const CommitmentSection = () => {
             className="row-span-2 w-full h-full object-cover rounded-2xl shadow"
           />
           <img
-            src={AboutImage2}
+            src={Image2}
             alt="Relaxing Woman"
             className="w-full h-full object-cover rounded-2xl shadow"
           />
           <img
-            src={AboutImage3}
+            src={Image3}
             alt="Craftsman"
             className="w-full h-full object-cover rounded-2xl shadow"
           />
