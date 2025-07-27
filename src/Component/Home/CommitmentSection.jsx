@@ -1,6 +1,6 @@
 import React from "react";
 import { Clock, ShoppingBag } from "lucide-react";
-import AboutImage from "../../assets/about3.jpg";
+import Image from "../../assets/about3.jpg";
 import Image2 from "../../assets/about2.jpg";
 import Image3 from "../../assets/about1.jpg";
 
@@ -11,7 +11,7 @@ const CommitmentSection = () => {
         {/* Left Side - Images */}
         <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full">
           <img
-            src={AboutImage}
+            src={Image}
             alt="Couch Discussion"
             className="row-span-2 w-full h-full object-cover rounded-2xl shadow"
           />
