@@ -1,8 +1,8 @@
 import React from "react";
 import { Clock, ShoppingBag } from "lucide-react";
 import Image from "../../assets/about3.jpg";
-import Image2 from "../../assets/about2.jpg";
-import Image3 from "../../assets/about1.jpg";
+import Image2 from "../../assets/About2.jpg";
+import Image3 from "../../assets/About1.jpg";
 
 const CommitmentSection = () => {
   return (
